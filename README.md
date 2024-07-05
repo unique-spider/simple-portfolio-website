@@ -2,14 +2,6 @@
 
 Welcome to my portfolio webpage! This project showcases my work and provides a way to contact me.
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contact](#contact)
-- [License](#license)
-
 ## Overview
 
 This is a simple portfolio webpage consisting of an index page and a contact page. It provides information about me, my skills, and my projects, as well as a form to get in touch with me.
@@ -25,7 +17,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone (https://unique-spider.github.io/simple-portfolio-website/contact.html)
     ```
 
 2. **Navigate to the project directory**:
