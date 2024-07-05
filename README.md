@@ -17,7 +17,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone (https://unique-spider.github.io/simple-portfolio-website/contact.html)
+    (https://unique-spider.github.io/simple-portfolio-website/contact.html)
     ```
 
 2. **Navigate to the project directory**:
