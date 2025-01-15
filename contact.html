@@ -1,49 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - UNIQUE_SPIDER</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contact-style.css">
 </head>
 <body>
-    <div class="name">
-        <h1>UNIQUE_SPIDER</h1>
-        <p>WEB DEVELOPER</p>
-    </div>
-    <a href="./contact.html">
-        <button class="contact-button">Contact</button>
+  <div class="container">
+    <a href="./index.html">
+      <h1 class="logo">Anbuselvan</h1>
     </a>
-    <div class="about_me">
-        <h1>About Me</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sapiente eos distinctio asperiores...</p>
+    <h1>Contact Us</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+      </div>
+      <button type="submit" class="submit-button">Submit</button>
+    </form>
+
+    <div class="subscribe-section">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Stay updated with the latest news, offers, and updates.</p>
+      <div class="subscribe-input">
+        <input type="email" id="subscribe-email" placeholder="Enter your email" required>
+        <button type="button" onclick="subscribe()">Subscribe</button>
+      </div>
     </div>
-    <div class="my_interest">
-        <h2>My Interest</h2>
-        <ul>
-            <li>Web Development</li>
-            <li>Editing</li>
-            <li>Reading</li>
-        </ul>
-    </div>
-    <div class="my_projects">
-        <h2>My Projects</h2>
-        <ul>
-            <li>
-                <h3>Amazon E-commerce Clone</h3>
-                <p>I completed Amazon E-Commerce Clone with ReactJS (Frontend App)</p>
-            </li>
-            <li>
-                <h3>Travel Website</h3>
-                <p>I completed a Travel Website which helps people plan trips easily.</p>
-            </li>
-        </ul>
-    </div>
-    <div class="social_media_handles">
-        <p>
-            Social Media: <a href="https://www.youtube.com" target="_blank">YouTube</a>
-        </p>
-        <p>&copy; 2025 UNIQUE_SPIDER</p>
-    </div>
+  </div>
+
+  
+  <footer>
+    &copy; 2025 UNIQUE_SPIDER Contact Page. All rights reserved.
+  </footer>
+
+  <script>
+    function subscribe() {
+      const email = document.getElementById('subscribe-email').value;
+      if (email) {
+        alert(`Thank you for subscribing! We'll keep you updated at ${email}.`);
+      } else {
+        alert('Please enter a valid email address.');
+      }
+    }
+  </script>
 </body>
 </html>
